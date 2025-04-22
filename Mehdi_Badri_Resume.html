@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mehdi Badri, Ph.D. - Resume</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #212529;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2 {
+      color: #003366;
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+    .contact-info a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Mehdi Badri, Ph.D.</h1>
+      <p class="contact-info">
+        📍 Silver Spring, MD<br>
+        📧 <a href="mailto:mehdi.badri@gmail.com">mehdi.badri@gmail.com</a><br>
+        🔗 <a href="http://www.linkedin.com/in/mehdi-badri-g" target="_blank">LinkedIn</a> | 
+        📚 <a href="https://scholar.google.com/citations?user=ghErU2MAAAAJ" target="_blank">Publications</a>
+      </p>
+    </header>
+
+    <section class="section">
+      <h2>Aerodynamics and Mechanical Engineer | CFD Specialist</h2>
+      <p>
+        Dedicated professional with 9+ years of experience in modeling and technical analysis in aerospace and mechanical engineering, specializing in advanced computational fluid dynamics (CFD) and heat transfer simulations. Expertise in solver development, design optimization, CAD modeling, and high-fidelity simulation delivery using scientific programming and HPC tools.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Career Highlights & Accomplishments</h2>
+      <ul>
+        <li>Developed a novel parallel IBM solver for FSI with complex geometries and heat transfer.</li>
+        <li>Enhanced DEM solver for particulate flow and heat transfer.</li>
+        <li>Developed OpenFOAM-based FSI solvers using overset mesh techniques.</li>
+        <li>Reduced turbulence simulation costs via AMR at RIKEN.</li>
+        <li>Designed high-performance multigrid solvers for FSI and thermal problems.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Core Competencies</h2>
+      <ul>
+        <li>CFD & TH Simulation (Internal/External Flows)</li>
+        <li>Multiphysics Analysis: FSI, Heat, Mass, Multiphase Flows</li>
+        <li>High-Performance Computing: OpenMP, CUDA, MPI</li>
+        <li>CAD Modeling & Mesh Generation</li>
+        <li>Advanced Algorithms: AMR, Overset Mesh, Multigrid</li>
+        <li>Compressible/Incompressible Flow</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Professional Experience</h2>
+      <h3>Kyoto Institute of Technology (KIT), Japan — CFD Researcher (Aug 2021 - Apr 2024)</h3>
+      <ul>
+        <li>Led development of CFD/thermal models using Fortran and CMake.</li>
+        <li>Reduced simulation times for complex aircraft models by 30%.</li>
+        <li>Improved OpenFOAM solvers; mentored Ph.D. and master's students.</li>
+      </ul>
+
+      <h3>RIKEN, Japan — Computational Mechanical Engineer (Aug 2019 - Sep 2020)</h3>
+      <ul>
+        <li>Developed parallel solvers for turbulent flows and FSI.</li>
+        <li>Integrated AMR and GPU acceleration for efficient simulations.</li>
+        <li>Contributed to FUGAKU supercomputer simulations.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Education</h2>
+      <p><strong>Keio University</strong> — Ph.D. in Mechanical Engineering<br>
+      Honors: Keio Grant, Otsuka Scholarship, Ericsson Innovation Awards Runner-up</p>
+
+      <p><strong>Azad University</strong> — M.Sc. in Aerospace Engineering<br>
+      Graduated with highest GPA, nearly double credit hours completed</p>
+    </section>
+
+    <section class="section">
+      <h2>Technical Skills</h2>
+      <p>
+        ANSYS Fluent, OpenFOAM, Onshape, SolidWorks, C++, Python, Fortran, Linux (Bash), CMake, Git, Gmsh, Pointwise, VTK/Paraview, Tecplot, OpenMP, CUDA
+      </p>
+    </section>
+  </div>
+</body>
+<script type="module">
+  import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+  Chatbot.init({
+      chatflowid: "47a790ac-7704-42bc-b3ca-4b22b9cfc8b5",
+      apiHost: "https://cloud.flowiseai.com",
+      chatflowConfig: {
+          /* Chatflow Config */
+      },
+      observersConfig: {
+          /* Observers Config */
+      },
+      theme: {
+          button: {
+              backgroundColor: '#3B81F6',
+              right: 20,
+              bottom: 20,
+              size: 48,
+              dragAndDrop: true,
+              iconColor: 'white',
+              customIconSrc: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
+              autoWindowOpen: {
+                  autoOpen: true,
+                  openDelay: 2,
+                  autoOpenOnMobile: false
+              }
+          },
+          tooltip: {
+              showTooltip: true,
+              tooltipMessage: 'Hi There 👋!',
+              tooltipBackgroundColor: 'black',
+              tooltipTextColor: 'white',
+              tooltipFontSize: 14
+          },
+          disclaimer: {
+              title: 'Disclaimer',
+              message: "By using this chatbot, you agree to the <a target=\"_blank\" href=\"https://flowiseai.com/terms\">Terms & Condition</a>",
+              textColor: 'black',
+              buttonColor: '#3b82f6',
+              buttonText: 'Start Chatting',
+              buttonTextColor: 'white',
+              blurredBackgroundColor: 'rgba(0, 0, 0, 0.4)',
+              backgroundColor: 'white'
+          },
+          customCSS: ``,
+          chatWindow: {
+              showTitle: true,
+              showAgentMessages: true,
+              title: 'Mehdi Bot',
+              titleAvatarSrc: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
+              welcomeMessage: 'Hello! This is custom welcome message',
+              errorMessage: 'This is a custom error message',
+              backgroundColor: '#f5f7fa',
+              backgroundImage: 'enter image path or link',
+              height: 400,
+              width: 400,
+              fontSize: 14,
+              starterPrompts: [
+                  "Where can I find Mehdi Badri’s published research?",
+                  "Where can I view Mehdi’s LinkedIn profile?"
+              ],
+              starterPromptFontSize: 15,
+              clearChatOnReload: false,
+              sourceDocsTitle: 'Sources:',
+              renderHTML: true,
+              botMessage: {
+                  backgroundColor: '#ffffff',
+                  textColor: '#1e1e1e',
+                  showAvatar: true,
+                  avatarSrc: 'https://api.dicebear.com/7.x/bottts/svg?seed=9f959a63-606d-4634-883a-8909ce8bc97a'
+              },
+              userMessage: {
+                  backgroundColor: '#3B81F6',
+                  textColor: '#ffffff',
+                  showAvatar: true,
+                  avatarSrc: 'https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png'
+              },
+              textInput: {
+                  placeholder: 'Type your question',
+                    backgroundColor: '#ffffff',
+                    textColor: '#1e1e1e',
+                    sendButtonColor: '#3B81F6',
+                  maxChars: 50,
+                  maxCharsWarningMessage: 'You exceeded the characters limit. Please input less than 50 characters.',
+                  autoFocus: true,
+                  sendMessageSound: true,
+                  sendSoundLocation: 'send_message.mp3',
+                  receiveMessageSound: true,
+                  receiveSoundLocation: 'receive_message.mp3'
+              },
+              feedback: {
+                  color: '#303235'
+              },
+              dateTimeToggle: {
+                  date: true,
+                  time: true
+              },
+              footer: {
+                  textColor: '#303235',
+                  text: 'Powered by',
+                  company: 'Flowise',
+                  companyLink: 'https://flowiseai.com'
+              }
+          }
+      }
+  })
+</script>
+
+</html>
